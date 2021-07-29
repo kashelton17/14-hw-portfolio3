@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katie's Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Adding a favicon -->
+    <link rel="shortcut icon" href="./assets/images/k_image.jpg" type="image/x-icon">  
+    <!-- adding a reset stylesheet to reset browser default sytling -->
+    <link rel="stylesheet" type="text/css" href="./assets/reset.css" />
+    <!-- linking the css stylesheet  -->
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" /> 
+</head>
+
+<!-- Creating the body of teh webpage which contains all the content -->
+<body>
+    <!-- Header section containing name and nav bar -->
+    <header>
+        <div class='row justify-content-between'>
+            <h1>SHELTON</h1>
+            <nav>
+                <ul>
+                    <li class='nav about btn'>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li class='nav mywork btn'>
+                    <a href="#work">My Work</a>
+                    </li>
+                    <li class='nav contactMe btn'>
+                        <a href="#contact-me">Contact Me</a>
+                    </li>
+                    <li class='nav res btn'>
+                    <a href="./assets/images/KatieSheltonResume.pdf" target='_blank'>Resume</a> 
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Adding an image of me as well as a subtitle -->
+
+    <div class="card mb-3" >
+        <div class="row g-0 img-card">
+          <div class="col-lg-4 md-5 img-card">
+            <img class="image" src="./assets/images/IMG_3206.jpg" alt="image of katie looking over water">
+          </div>
+          <div class="col-md-8 img-card">
+            <div class="card-body img-content">
+              <h5 class="card-title">Northwestern University Bootcamp Work</h5>
+              <p class="card-text">This page contains Katie's work from Northwestern Bootcamp attended from March 31, 2021 until graduation on September 19, 2021. 
+                  The works displays knowledge of Javascript, HTML, CSS and many of the libraries and other material covered. 
+              </p>
+              <p class="card-text"><small class="text-muted">Last updated 5/30/2021</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- main contains the content of this page including 'About me', 'Work' and 'Contact' section of the page -->
+    <main>
+        <!-- about me section -->
+        <section class='content one' id='about-me'>
+            <h2>About Me</h2>
+            <p class='subcontent'>I grew up in the suburbs of Chicago until I went off to college in 2012. I went to Bucknell University and graduated with a degree in Chemistry and German. Now I live in New Hampshire working as a chemist, but am looking to change directions and be a web developer.
+            </p>
+        </section>
+        <!-- work section containing links to my work (will update as I create more work) -->
+        <section class='content two' id='work'>
+            <h2>Work</h2>
+            <div class='workcontent subcontent workone'>
+                <div>
+                    <a class='worktitle' href="https://northwestern-bootcamp.github.io/recipeNetwork/" target='_blank'>Recipe Network</a>
+                    <a class='github-link' href="https://github.com/Northwestern-Bootcamp/recipeNetwork" target="_blank">Repository</a>
+                </div>
+            </div>
+            <div class='workcontent subcontent worktwo'>
+                <div>
+                    <a class='worktitle' href="https://kashelton17.github.io/05-hw-third-party-APIs/" target='_blank'>Work Day Scheduler</a>
+                    <a class='github-link' href="https://github.com/kashelton17/05-hw-third-party-APIs" target="_blank">Repository</a>
+                </div>
+            </div>
+            <div class='workcontent subcontent workthree'>
+                <div>
+                    <a class='worktitle' href="https://kashelton17.github.io/06-hw-weather-dashboard/" target='_blank'>Weather Dasboard</a>
+                    <a class='github-link' href="https://github.com/kashelton17/06-hw-weather-dashboard" target="_blank">Repository</a>
+                </div>
+            </div>
+        </section>
+        <!-- contact section containing contact info -->
+        <section class='content three' id='contact-me'>
+            <h2>Contact Me</h2>
+            <ul class='subcontent contact-div'>
+                <li class='contact email'>
+                    <a href="mailto: kashelton17@gmail.com" target="_blank"> kashelton17@gmail.com</a>
+                </li>
+                <li class='contact tel' >
+                    <a href="tel:2245653235"> Phone</a>
+                </li>
+                <li class='contact git'>
+                    <a href="github.com/kashelton17" target='_blank'>GitHub</a>
+                    <a href='https://www.linkedin.com/in/katie-shelton-67115365/' target="_blank">LinkedIn</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class='content footer'>Made by Katie Shelton</footer>
+</body>
+</html>
